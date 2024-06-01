@@ -11,7 +11,7 @@ const Kids = () => {
       try {
         const response = await api.get('productos');
         // Filtrar los productos donde la categoryId sea igual a 3
-        const filteredProducts = response.data.filter(product => product.categoriaId === 5);
+        const filteredProducts = response.data.filter(product => product.categoriaId === 3);
         setProductos(filteredProducts);
         console.log(productos)
       } catch (error) {
