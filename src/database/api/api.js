@@ -1,5 +1,5 @@
 import axios from "axios";
-const URL = "https://tienda-online-front-exam-9j586zg6l-dyllan-ruizs-projects.vercel.app/api/";
+const URL = "tiendaonlinebackend-production.up.railway.app/api/";
 
 
 export default axios.create({
