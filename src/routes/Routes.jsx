@@ -8,7 +8,7 @@ import Kids from "../pages/kids/Kids.jsx";
 import Carts from "../pages/carts/Carts.jsx";
 
 
-const RoutesComponent = () => (
+const   RoutesComponent = () => (
   <Router>
     <div className="flex flex-col min-h-screen">
       <Header />

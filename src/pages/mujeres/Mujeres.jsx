@@ -11,7 +11,6 @@ const Mujeres = () => {
     const fetchProducts = async () => {
       try {
         const response = await api.get('productos');
-        // Filtrar los productos donde la categoryId sea igual a 3
         const filteredProducts = response.data.filter(product => product.categoriaId === 2);
         setProductos(filteredProducts);
         console.log(productos)
